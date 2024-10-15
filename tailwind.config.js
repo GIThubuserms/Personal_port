@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+     
       animation: {
         'ping-once': 'bounce 1s ease-in-out 1',
       },
@@ -13,4 +14,3 @@ export default {
   },
   plugins: [],
 }
-
