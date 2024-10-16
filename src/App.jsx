@@ -2,6 +2,7 @@ import NavBar from './components/NavBar'
 import './App.css'
 import Herosection from './components/Herosection'
 import About from './components/About'
+import Expertise from './components/Expertise'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <NavBar/>
     <Herosection/>
     <About/>
+    <Expertise/>
     </>
   )
 }

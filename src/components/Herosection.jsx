@@ -5,10 +5,9 @@ import { easeIn, motion } from "framer-motion"
 
 function Herosection() {
   return (
-    <div className=''>
+    <div className=' px-8 sm:px-0'>
       <div 
-        className='flex  w-full mx-auto  justify-center items-center'>
-
+        className='flex w-full justify-center items-center'>
         <motion.div
          initial={{x:-200,opacity:0}}
          animate={{x:0,opacity:1}}

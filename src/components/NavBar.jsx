@@ -28,7 +28,7 @@ function NavBar() {
                 {Navlinks.map((li)=> <li  className={`hover:text-blue-800 ${li?.active?"text-blue-700":null}`} key={li.id}>{li.name}</li>)}
             </ul>
     
-  {ismenuopen ?<MdOutlineCancel onClick={handlemenu} size={25} className='mr-9 md:hidden' />: <FaBars onClick={handlemenu} size={25} className='mr-9 md:hidden'/>}
+  {ismenuopen ?<MdOutlineCancel onClick={handlemenu} size={25} className='mr-6 md:hidden' />: <FaBars onClick={handlemenu} size={25} className='mr-6 md:hidden'/>}
         
         </div>
 
