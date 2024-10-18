@@ -12,7 +12,7 @@ import github from '../assets/github.png'
 import redux from '../assets/redux.png'
 import Vitejs from '../assets/Vitejs.png'
 import { FaPhoneAlt } from "react-icons/fa";
-
+import {easeInOut, motion} from 'framer-motion'
 
 
 const images= [html,css,javascript,react,tailwind,appwrite,Nodejs,Express,MongoDB,redux,Vitejs,github]
@@ -22,13 +22,25 @@ function Expertise() {
     return (
         <div className='w-full px-2 md:px-10 h-full'>
             <div className=' flex flex-col sm:flex-row px-26 gap-x-5 gap-y-8 w-full'>
- 
-                <div className='w-[100%] px-2 lg:px-0 sm:w-[50%] grid grid-cols-3 lg:grid-cols-3  gap-5 sm:gap-4'>
+                <motion.div 
+                animate={{
+                    scale: [1],
+                    rotate:[0,180,0]
+                  }}
+                  transition={{
+                    duration: 2,
+                    ease: "easeInOut",                
+                  }}
+                className ='w-[100%] px-2 lg:px-0 sm:w-[50%] grid grid-cols-3 lg:grid-cols-3  gap-5 sm:gap-4'>
                    {images.map((img,index)=> <img src={img} className='h-14 mx-auto' key={index}/>)}
 
-                </div>
+                </motion.div>
 
-                <div className='w-[100%] sm:w-[50%] h-[450px] flex-col  space-y-16 md:space-y-20 '>
+                <motion.div 
+                initial={{opacity:0,scale:0.5}}
+                animate={{opacity:1,scale:1}}
+                transition={{duration:2, ease:easeInOut}}
+                className='w-[100%] sm:w-[50%] h-[450px] flex-col  space-y-16 md:space-y-20 '>
                    
                    
                     <div className='upper flex w-full  gap-x-6 justify-center px-2 md:px-5 '>
@@ -50,7 +62,7 @@ function Expertise() {
                                 <div className='lower_right'>0318-0601365</div>
                             </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
 
         </div>
