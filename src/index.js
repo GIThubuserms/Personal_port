@@ -1,3 +1,8 @@
+import web1 from './assets/web1.webp'
+import web2 from './assets/web2.webp'
+import web3 from './assets/web3.webp'
+import web4 from './assets/web4.webp'
+
 const Navlinks = [
   {
     name: "HOME",
@@ -44,6 +49,38 @@ const Abouts = {
    results in web development while continuously expanding his skill set`,
 };
 
-console.log(Navlinks);
+const servicemessage={
+  tittle:'Service Offers',
+  disp:'I craft digital experiences with precision, bringing together creativity and technology. From design to development, I build solutions that connect and inspire, guiding your vision to reality in every detail'
+}
 
-export { Navlinks, Abouts };
+const services = [
+  {
+    Title: "Frontend Development",
+    img: web4,
+    Description:
+      "Building visually appealing and interactive user interfaces using modern technologies like React and Tailwind CSS. We ensure your website is responsive, fast, and delivers a seamless experience across all devices",
+  },
+  {
+    Title: "Backend Development",
+    img: web2,
+    Description:
+      "Developing robust and scalable server-side solutions to support your web applications. Our backend services include API development, database management, and ensuring data security and performance",
+  },
+  {
+    Title: "Full Stack Development",
+    img: web1,
+    Description:
+      "Offering complete web development services, from frontend to backend. We build fully functional applications that integrate user-friendly interfaces with powerful server-side capabilities for a comprehensive solution",
+  },
+  {
+    Title: "Web Designing",
+    img: web3,
+    Description:
+      "Crafting visually stunning and user-focused designs that captivate your audience. Our web design services prioritize aesthetics, user experience, and accessibility to create websites that leave a lasting impression",
+  },
+];
+
+
+
+export { Navlinks, Abouts , services ,servicemessage};

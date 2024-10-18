@@ -3,6 +3,7 @@ import './App.css'
 import Herosection from './components/Herosection'
 import About from './components/About'
 import Expertise from './components/Expertise'
+import Services from './components/Services'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <Herosection/>
     <About/>
     <Expertise/>
+    <Services/>
     </>
   )
 }

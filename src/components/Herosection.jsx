@@ -28,10 +28,12 @@ function Herosection() {
             </div>
 
             <div className='flex space-x-3 '>
-                <a  className='bg-gradient-to-r from-[#854fee] to-[#4458dc] w-[120px] rounded-md  p-2  hover:to-[#fffff]  text-white hover:text-black'>HIRE ME</a>
-                <a href={MYPORTFOLIO} download className=' hover:bg-gradient-to-r  hover:from-[#854fee] hover:to-[#4458dc] p-2   w-[120px]  rounded-md  text-black hover:text-white'>GET CV</a>
+                <a className='bg-gradient-to-r from-[#854fee] to-[#4458dc] w-[120px] rounded-md  cursor-pointer p-2  hover:to-[#fffff]  text-white hover:text-black'>HIRE ME</a>
+                <a href={MYPORTFOLIO} download className=' bg-gradient-to-r  hover:from-[#854fee] cursor-pointer hover:to-[#4458dc] p-2 w-[120px] rounded-md  text-black hover:text-white'>GET CV</a>
             </div>
         </motion.div>
+
+        
 
         <div className=' w-[50%] hidden sm:flex '>
             <img src={personalportbanner} className='h-[450px] ' alt="" />
