@@ -21,7 +21,7 @@ function Feedbacks() {
             
             <div className='right w-[80%] flex flex-col  gap-2'>
               <div className='right-upper text-md font-semibold'>{client.name}</div>
-              <div className='right-lower text-gray-400 text-xs'>{client.disp}</div>
+              <div className='right-lower text-gray-500 text-xs'>{client.disp}</div>
             </div>
             
             </div>
