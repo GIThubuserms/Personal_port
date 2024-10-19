@@ -6,6 +6,9 @@ import project1 from './assets/project1.png'
 import project2 from './assets/project2.png'
 import project3 from './assets/project3.jpeg'
 import project4 from './assets/project4.jpeg'
+import client1 from './assets/client1.webp'
+import client2 from './assets/client2.webp'
+import Murtazadeep from './assets/Murtazadeep.png'
 
 const Navlinks = [
   {
@@ -116,5 +119,33 @@ const projects=[
    }
 ]
 
+const Clientmessage={
+  disp:'client say about me',
+  message:"I’m grateful for the positive feedback from my clients. Here are a few words from those I've worked with sharing their experiences and results"
+}
 
-export { Navlinks, Abouts , services ,servicemessage, projectsmessage,projects};
+const Client=[
+  {
+    name:"DAVIL SADEN",
+    img:client1,
+    disp:"Working with Murtaza has been an absolute pleasure. His attention to detail and commitment to delivering high-quality work exceeded my expectations."
+  },
+  {
+    name:"ELITE MARTIN",
+    img:client2,
+    disp:"Murtaza’s expertise in frontend development helped our project go live smoothly and on time. His ability to solve problems and communicate effectively made the entire process seamless. Highly recommended!"
+  }
+]
+const contact={
+  h1:"FEEL FREE TO REACH OUT",
+  disp:"From design to development, I build solutions that connect and inspire, guiding your vision to reality in every detail",
+}
+
+
+const fotter={
+logo:Murtazadeep,
+tittle:"FOLLOW ME :)",
+disp:"Copyright ©2024 All rights reserved" 
+}
+
+export { Navlinks, Abouts , services ,servicemessage, projectsmessage,projects,Client,Clientmessage,contact,fotter};

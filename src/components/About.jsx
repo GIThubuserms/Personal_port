@@ -15,7 +15,7 @@ function About() {
 
       <div className=' flex-col w-[100%] md:px-0 sm:w-[50%]  space-y-3 sm:space-y-2  md:space-y-3 my-auto '>
         <h2 className='text-4xl font-extrabold'>{Abouts.h3}</h2>
-        <p className='font-sans text-gray-500 '> {Abouts.about1}</p>
+        <p className='font-sans text-gray-500 '>{Abouts.about1}</p>
         <p className='font-sans text-gray-500 '>{Abouts.about2}</p>
         <p className='font-sans text-gray-500 '>{Abouts.about3}</p>
         <div className='flex justify-center items-center'>

@@ -6,11 +6,11 @@ function Projects() {
   return (
     <div className='mt-24'>
 
-      <div className='flex justify-start  px-8 sm:px-12 md:px-20 lg:px-36 text-4xl w-[60%] font-semibold my-5' >
+      <div className='flex justify-start  px-8 sm:px-12 md:px-20 lg:px-44 text-4xl w-[60%] font-semibold my-5' >
         <h1>{projectsmessage.disp.toUpperCase()}</h1>
       </div>
 
-      <div className='grid grid-cols-1 gap-5 sm:grid-cols-2  px-8 sm:px-12 md:px-20  lg:px-36'>
+      <div className='grid grid-cols-1 gap-5 sm:grid-cols-2  px-8 sm:px-12 md:px-20  lg:px-44'>
         {projects.map((proj, index) =>
           <div key={index}  className='rounded-lg hover:shadow-2xl '>
             <div
