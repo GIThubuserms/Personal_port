@@ -2,6 +2,10 @@ import web1 from './assets/web1.webp'
 import web2 from './assets/web2.webp'
 import web3 from './assets/web3.webp'
 import web4 from './assets/web4.webp'
+import project1 from './assets/project1.png'
+import project2 from './assets/project2.png'
+import project3 from './assets/project3.jpeg'
+import project4 from './assets/project4.jpeg'
 
 const Navlinks = [
   {
@@ -81,6 +85,36 @@ const services = [
   },
 ];
 
+const projectsmessage={
+  disp:"quality work Recently done project"
+}
+
+const projects=[
+  {
+    img:project1,
+    link:'https://ecommerce-ms.vercel.app/',
+   title:'MS Ecommerce',
+   disp:'Animated,Landing page'
+  },
+  {
+    img:project2,
+    link:'https://resturant-ms.vercel.app/',
+    title:'Restuarant Web',
+   disp:'Animated,Landing page'
+  },
+  {
+    img:project3,
+    link:'https://expensetracker57.vercel.app/',
+   title:'Expense Tracker',
+   disp:'Animated,Landing page'
+  },
+  {
+    img:project4,
+    link:'https://movie-app-zeta-steel.vercel.app/',
+    title:'Movie Web',
+    disp:'Animated,Landing page'
+   }
+]
 
 
-export { Navlinks, Abouts , services ,servicemessage};
+export { Navlinks, Abouts , services ,servicemessage, projectsmessage,projects};
