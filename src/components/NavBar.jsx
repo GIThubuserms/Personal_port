@@ -17,7 +17,7 @@ function NavBar() {
   return (
     <nav className='w-full  backdrop-blur-lg rounded-xl' >
         <div className=' flex h-[80px] items-center justify-between  '>
-            <div className=' ml-1 md:ml-5'>    
+            <div className=' ml-5 md:ml-9'>    
                 <img  
                 src={Murtazadeep}  
                 className='h-[70px]' 
