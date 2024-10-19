@@ -7,14 +7,14 @@ import { SiGmail } from "react-icons/si";
 
 function Fotter() {
   return (
-    <div className='flex flex-col justify-center gap-3 items-center text-center'>
+    <div className='flex flex-col mb-4 justify-center gap-3 items-center text-center'>
          
       <div>
         <img src={fotter.logo} className='h-[100px]' alt="" />
       </div>
       
       <div>
-        <p className='text-xl font-extrabold'>{fotter.tittle}</p>
+        <p className='text-xl font-extrabold '>{fotter.tittle}</p>
       </div>
     
     
@@ -27,9 +27,10 @@ function Fotter() {
     
   
     
-    <div className='flex gap-2'>
-        <p className='font-serif'>{fotter.disp}</p>
-        <p className='font-serif font-extrabold text-red-800 '>MS  &#9996;</p>
+    <div className='flex '>
+        <p className='font-serif'>{fotter.disp1}</p>
+        <p className='font-serif font-extrabold ml-1 text-red-800'>MS</p>
+        
     </div>
       
     </div>

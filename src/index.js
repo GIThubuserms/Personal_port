@@ -145,7 +145,8 @@ const contact={
 const fotter={
 logo:Murtazadeep,
 tittle:"FOLLOW ME :)",
-disp:"Copyright ©2024 All rights reserved" 
+disp1:"Copyright ©2024 All rights reserved",
+disp2:"--MS--"
 }
 
 export { Navlinks, Abouts , services ,servicemessage, projectsmessage,projects,Client,Clientmessage,contact,fotter};

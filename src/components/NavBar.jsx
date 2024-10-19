@@ -15,7 +15,7 @@ function NavBar() {
 }
  
   return (
-    <nav className='w-full  backdrop-blur-lg rounded-xl' >
+    <nav className='w-full  backdrop-blur-lg rounded-xl mb-5 lg:mb-0' >
         <div className=' flex h-[80px] items-center justify-between  '>
             <div className=' ml-5 md:ml-9'>    
                 <img  
@@ -33,7 +33,7 @@ function NavBar() {
         </div>
 
         {ismenuopen && <ul className= {` text-black items-center justify-center   w-full md:hidden flex-col text-md font-bold backdrop-blur-lg  px-5 space-y-4 `} >
-                {Navlinks.map((li)=> <li  className={`hover:text-blue-800  animate-ping-once  rounded-xl shadow-lg p-2 ${li?.active?"text-blue-700":null}`} key={li.id}>{li.name}</li>)}
+                {Navlinks.map((li)=> <li  className={`hover:text-blue-800  animate-ping-once  border-b-2 border-slate-200  p-2 ${li?.active?"text-blue-700":null}`} key={li.id}>{li.name}</li>)}
             </ul>}
       
     </nav>

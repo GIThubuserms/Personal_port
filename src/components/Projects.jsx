@@ -12,7 +12,7 @@ function Projects() {
 
       <div className='grid grid-cols-1 gap-5 sm:grid-cols-2  px-8 sm:px-12 md:px-20  lg:px-44'>
         {projects.map((proj, index) =>
-          <div key={index}  className='rounded-lg hover:shadow-2xl '>
+          <div key={index}  className='rounded-lg shadow-blue-300 shadow-2xl hover:shadow-white '>
             <div
               style={{ backgroundImage: `url(${proj.img})`}}
               className="h-[400px] flex justify-center items-end bg-origin-content bg-auto bg-no-repeat bg-center ">             

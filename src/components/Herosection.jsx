@@ -12,7 +12,7 @@ function Herosection() {
          initial={{x:-200,opacity:0}}
          animate={{x:0,opacity:1}}
          transition={{ ease:'easeOut' ,duration:1}}
-         className='w-[100%] sm:w-[50%] space-y-5  -z-20  lg:space-y-6 px-3 lg:px-36 '> 
+         className='w-[100%] sm:w-[50%] space-y-5   lg:space-y-6 px-3 lg:px-36 '> 
 
             <div className='w-full flex h-auto  items-center '>
                 <div className=' text-2xl lg:text-3xl flex w-[250px] font-semibold'>WELCOME &#128075;</div>
@@ -27,8 +27,8 @@ function Herosection() {
                 <p className='text-xl lg:text-2xl font-semibold'>FRONTEND WEB DEVELOPER</p>
             </div>
 
-            <div className='flex space-x-3 '>
-                <a className='bg-gradient-to-r from-[#854fee] to-[#4458dc] w-[120px] rounded-md  cursor-pointer p-2  hover:to-[#fffff]  text-white hover:text-black'>HIRE ME</a>
+            <div className='flex space-x-3  '>
+                <a className='bg-gradient-to-r from-[#854fee] to-[#4458dc] w-[120px] rounded-md  cursor-pointer p-2  hover:from-[#ffffff] hover:to-[#ffffff]  text-white hover:text-black'>HIRE ME</a>
                 <a href={MYPORTFOLIO} download className=' bg-gradient-to-r  hover:from-[#854fee] cursor-pointer hover:to-[#4458dc] p-2 w-[120px] rounded-md  text-black hover:text-white'>GET CV</a>
             </div>
         </motion.div>
