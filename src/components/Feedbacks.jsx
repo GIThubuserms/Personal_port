@@ -1,8 +1,10 @@
 import React from 'react'
 import { Client,Clientmessage } from '../index.js'
+import { Link } from 'react-router-dom'
 
 function Feedbacks() {
   return (
+   
     <div className='w-full mt-24 md:mt-32 space-y-10'>
 
         <div className='w-full  px-3 sm:px-5 md:px-12 lg:px-20 flex flex-col justify-center items-center'>

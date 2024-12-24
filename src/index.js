@@ -12,33 +12,40 @@ import Murtazadeep from './assets/Murtazadeep.png'
 
 const Navlinks = [
   {
-    name: "HOME",
+    name:"HOME",
     id: 1,
     active: true,
+    path:""
   },
   {
-    name: "ABOUT",
+    name:"ABOUT",
     id: 2,
+    path:"/about"
   },
   {
-    name: "SERVICES",
+    name:"TECHSTACK",
     id: 3,
+    path:"/Techstack"
   },
   {
-    name: "PORTFOLIO",
+    name:"SERVICES",
     id: 4,
+    path:"/services"
   },
   {
-    name: "PAGES",
+    name:"PROJECTS",
     id: 5,
+    path:"/portfolio"
   },
   {
-    name: "BLOG",
+    name:"FEEDBACKS",
     id: 6,
+    path:"/feedback"
   },
   {
-    name: "CONTACT",
+    name:"CONTACT",
     id: 7,
+    path:"/contact"
   },
 ];
 

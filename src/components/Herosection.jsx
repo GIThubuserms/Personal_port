@@ -2,9 +2,16 @@ import React from 'react'
 import personalportbanner from '../assets/personalportbanner.webp'
 import MYPORTFOLIO from '../assets/MYPORTFOLIO.pdf'
 import { easeIn, motion } from "framer-motion"
+import { Link } from 'react-router-dom'
+import About from './About'
+import Expertise from './Expertise'
+import Services from './Services'
+import Projects from './Projects'
+import Feedbacks from './Feedbacks'
 
 function Herosection() {
   return (
+    <>
     <div className=' px-8 sm:px-0'>
       <div 
         className='flex w-full justify-center items-center'>
@@ -39,7 +46,13 @@ function Herosection() {
             <img src={personalportbanner} className='h-[450px] ' alt="" />
          </div>
          </div>
-      </div>
+    </div>
+    <About/>
+    <Expertise/>
+    <Services/>
+    <Projects/>
+    <Feedbacks/>
+    </>
   )
 }
 

@@ -1,9 +1,11 @@
 import React from 'react'
 import { projectsmessage, projects } from '../index.js'
 import {easeInOut, motion} from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 function Projects() {
   return (
+   
     <div className='mt-24'>
 
       <div className='flex justify-start  px-8 sm:px-12 md:px-20 lg:px-44 text-4xl w-[60%] font-semibold my-5' >
@@ -29,6 +31,7 @@ function Projects() {
         )}
     </div>
     </div>
+   
   )
 }
 

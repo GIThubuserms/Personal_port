@@ -1,8 +1,10 @@
 import React from 'react';
 import { services,servicemessage } from '../index.js';
+import { Link } from 'react-router-dom';
 
 function Services() {
   return (
+   
     <div className='w-full sm:mt-20 md:mt-24'>
         <div className='flex flex-col justify-center items-center px-2 sm:px-6 md:px-36 space-y-9 lg:px-48 text-center mb-5' >
             <h1 className='text-3xl font-extrabold text-center'>{servicemessage.tittle.toUpperCase()}</h1>
@@ -21,6 +23,7 @@ function Services() {
         ))}
       </div>
     </div>
+   
   );
 }
 

@@ -13,6 +13,7 @@ import redux from '../assets/redux.png'
 import Vitejs from '../assets/Vitejs.png'
 import { FaPhoneAlt } from "react-icons/fa";
 import {easeInOut, motion} from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 
 const images= [html,css,javascript,react,tailwind,appwrite,Nodejs,Express,MongoDB,redux,Vitejs,github]
@@ -20,6 +21,7 @@ const images= [html,css,javascript,react,tailwind,appwrite,Nodejs,Express,MongoD
 
 function Expertise() {
     return (
+        
         <div className='w-full px-2 md:px-10 h-full'>
             <div className=' flex flex-col sm:flex-row px-26 gap-x-5 gap-y-8 w-full'>
                 <motion.div 
@@ -66,6 +68,7 @@ function Expertise() {
             </div>
 
         </div>
+    
     )
 }
 

@@ -2,9 +2,11 @@ import React from 'react'
 import {Abouts} from '../index.js'
 import MYPORTFOLIO from '../assets/MYPORTFOLIO.pdf'
 import personalportfolioaboutbg from '../assets/personalportfolioaboutbg.webp'
+import { Link } from 'react-router-dom'
 
 function About() {
   return (
+   
     <div className='flex px-6  ml-6 sm:ml-0 sm:px-4  md:px-10  lg:px-30 gap-5 mt-28 mb-28'>
 
       <div className='hidden sm:flex w-[50%]   justify-center items-center '>
@@ -23,8 +25,8 @@ function About() {
         download className=' bg-gradient-to-r  px-1 md:px-2 py-2  from-[#854fee] to-[#4458dc] rounded-lg  hover:text-black text-white'>DOWNLOAD CV</a>
         </div>
         </div>
-
     </div>
+  
   )
 }
 
