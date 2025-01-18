@@ -1,6 +1,6 @@
 import React from 'react'
-import personalportbanner from '../assets/personalportbanner.webp'
-import MYPORTFOLIO from '../assets/MYPORTFOLIO.pdf'
+import Myselfremovebg from '../assets/Myselfremovebg.png'
+import MurtazaMERNDEV from '../assets/MurtazaMERNDEV.pdf'
 import { easeIn, motion } from "framer-motion"
 import { Link } from 'react-router-dom'
 import About from './About'
@@ -12,7 +12,7 @@ import Feedbacks from './Feedbacks'
 function Herosection() {
   return (
     <>
-    <div className=' px-8 sm:px-0'>
+    <div className=' px-8  sm:px-0'>
       <div 
         className='flex w-full justify-center items-center'>
         <motion.div
@@ -31,19 +31,19 @@ function Herosection() {
             </div>
 
             <div>
-                <p className='text-xl lg:text-2xl font-semibold'>FRONTEND WEB DEVELOPER</p>
+                <p className='text-xl lg:text-2xl font-semibold'>MERN STACK DEVELOPER</p>
             </div>
 
             <div className='flex space-x-3  '>
                 <a className='bg-gradient-to-r from-[#854fee] to-[#4458dc] w-[120px] rounded-md  cursor-pointer p-2  hover:from-[#ffffff] hover:to-[#ffffff]  text-white hover:text-black'>HIRE ME</a>
-                <a href={MYPORTFOLIO} download className=' bg-gradient-to-r  hover:from-[#854fee] cursor-pointer hover:to-[#4458dc] p-2 w-[120px] rounded-md  text-black hover:text-white'>GET CV</a>
+                <a href={MurtazaMERNDEV} download className=' bg-gradient-to-r  hover:from-[#854fee] cursor-pointer hover:to-[#4458dc] p-2 w-[120px] rounded-md  text-black hover:text-white'>GET CV</a>
             </div>
         </motion.div>
 
         
 
-        <div className=' w-[50%] hidden sm:flex '>
-            <img src={personalportbanner} className='h-[450px] ' alt="" />
+        <div className=' w-[50%] hidden sm:flex  justify-center items-center'>
+            <img src={Myselfremovebg} className='h-[350px] rounded-[100%] ' alt="" />
          </div>
          </div>
     </div>

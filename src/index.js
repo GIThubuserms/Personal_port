@@ -51,17 +51,11 @@ const Navlinks = [
 
 const Abouts = {
   h3: `LET'S INTRODUCE ABOUT MYSELF`,
-  about1: `I  am a skilled frontend developer and freelancer
-   who brings projects to life with expertise in JavaScript, React, and Tailwind
-    CSS`,
-  about2: `I crafts visually appealing 
-    and functional web applications.My dedication to clean code and seamless user experiences extends
-     to using Framer Motion like libraries for smooth animations.`,
-  about3: `Passionate about transforming Figma designs into responsive websites,
-      i values minimalistic, efficient solutions that maintain project integrity. With a knack for solving complex problems,
-       i delivers quality
-   results in web development while continuously expanding his skill set`,
+  about1: `I am a skilled MERN stack developer and freelancer, bringing projects to life with expertise in JavaScript, React, Node.js, Express, MongoDB, and Tailwind CSS.`,
+  about2: `I specialize in crafting full-stack web applications that are both visually appealing and highly functional. My dedication to clean code and seamless user experiences and efficient client-side interactions.`,
+  about3: `Passionate about transforming Figma designs into responsive websites, I also excel at building robust APIs and handling backend logic. I deliver quality results in full-stack development while continuously expanding my skill set.`,
 };
+
 
 const servicemessage={
   tittle:'Service Offers',

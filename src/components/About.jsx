@@ -1,6 +1,6 @@
 import React from 'react'
 import {Abouts} from '../index.js'
-import MYPORTFOLIO from '../assets/MYPORTFOLIO.pdf'
+import MurtazaMERNDEV from '../assets/MurtazaMERNDEV.pdf'
 import personalportfolioaboutbg from '../assets/personalportfolioaboutbg.webp'
 import { Link } from 'react-router-dom'
 
@@ -21,7 +21,7 @@ function About() {
         <p className='font-sans text-gray-500 '>{Abouts.about2}</p>
         <p className='font-sans text-gray-500 '>{Abouts.about3}</p>
         <div className='flex justify-center items-center'>
-        <a href={MYPORTFOLIO}
+        <a href={MurtazaMERNDEV}
         download className=' bg-gradient-to-r  px-1 md:px-2 py-2  from-[#854fee] to-[#4458dc] rounded-lg  hover:text-black text-white'>DOWNLOAD CV</a>
         </div>
         </div>
