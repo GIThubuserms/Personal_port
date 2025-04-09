@@ -1,6 +1,6 @@
 import React from 'react'
 import Myselfremovebg from '../assets/Myselfremovebg.png'
-import MurtazaMERNDEV from '../assets/MurtazaMERNDEV.pdf'
+import MurtazaSaleemMernDev from '../assets/MurtazaSaleemMernDev.pdf'
 import { easeIn, motion } from "framer-motion"
 import { Link } from 'react-router-dom'
 import About from './About'
@@ -35,8 +35,8 @@ function Herosection() {
             </div>
 
             <div className='flex space-x-3  '>
-                <a className='bg-gradient-to-r from-[#854fee] to-[#4458dc] w-[120px] rounded-md  cursor-pointer p-2  hover:from-[#ffffff] hover:to-[#ffffff]  text-white hover:text-black'>HIRE ME</a>
-                <a href={MurtazaMERNDEV} download className=' bg-gradient-to-r  hover:from-[#854fee] cursor-pointer hover:to-[#4458dc] p-2 w-[120px] rounded-md  text-black hover:text-white'>GET CV</a>
+                <a  className='bg-gradient-to-r from-[#854fee] to-[#4458dc] w-[120px] rounded-md  cursor-pointer p-2  hover:from-[#ffffff] hover:to-[#ffffff]  text-white hover:text-black'>HIRE ME</a>
+                <a href={MurtazaSaleemMernDev} download className=' bg-gradient-to-r  hover:from-[#854fee] cursor-pointer hover:to-[#4458dc] p-2 w-[120px] rounded-md  text-black hover:text-white'>GET CV</a>
             </div>
         </motion.div>
 
