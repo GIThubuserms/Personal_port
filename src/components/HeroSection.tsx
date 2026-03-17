@@ -97,7 +97,7 @@ const HeroSection = () => {
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full gradient-border glow-border p-1">
                 <div className="w-full h-full rounded-full bg-card overflow-hidden flex items-center justify-center">
                   <img 
-                    src="Myselfremovebg.png" 
+                    src="/Myselfremovebg.png" 
                     alt="Profile Picture" 
                     className="w-full h-full object-contain"
                   />

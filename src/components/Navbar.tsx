@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -6,13 +7,15 @@ import ThemeToggle from "./ThemeToggle";
 
 const navLinks = [
   { href: "#about", label: "About" },
-  { href: "#expertise", label: "Expertise" },
   { href: "#projects", label: "Projects" },
+  { href: "/projects", label: "Project Ideas" },
   { href: "#services", label: "Services" },
   { href: "#contact", label: "Contact" },
 ];
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -26,6 +29,19 @@ const Navbar = () => {
   }, []);
 
   const scrollToSection = (href: string) => {
+    if (href.startsWith("/")) {
+      navigate(href);
+      setIsMobileMenuOpen(false);
+      return;
+    }
+
+    // When on a different route, navigate back to home first so the target element exists
+    if (href.startsWith("#") && location.pathname !== "/") {
+      navigate("/", { state: { scrollTo: href } });
+      setIsMobileMenuOpen(false);
+      return;
+    }
+
     const element = document.querySelector(href);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
