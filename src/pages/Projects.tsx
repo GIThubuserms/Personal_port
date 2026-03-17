@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { Search, ExternalLink, X } from "lucide-react";
 
@@ -21,6 +21,11 @@ const ProjectIdeasPage = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [query, setQuery] = useState<string>("");
   const [activeIdea, setActiveIdea] = useState<ProjectIdea | null>(null);
+
+  useEffect(() => {
+    // Ensure the page is always scrolled to the top when visiting /projects.
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }, []);
 
   const normalizedQuery = query.trim().toLowerCase();
 

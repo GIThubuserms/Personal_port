@@ -66,7 +66,7 @@ const ServicesSection = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="services" className="py-20 md:py-32 bg-secondary/20 relative">
+    <section id="expertise" className="py-20 md:py-32 bg-secondary/20 relative">
       <div className="absolute inset-0 grid-bg opacity-30" />
       
       <div className="container mx-auto px-6 relative z-10">
@@ -77,13 +77,13 @@ const ServicesSection = () => {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <p className="text-primary font-mono text-sm mb-4">{'// Services'}</p>
+          <p className="text-primary font-mono text-sm mb-4">{'// Expertise'}</p>
           <h2 className="section-title">
-            What I <span className="gradient-text">Offer</span>
+            Areas of <span className="gradient-text">Expertise</span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-primary/30 mx-auto rounded-full mb-6" />
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive software engineering services to help bring your ideas to life 
+            Comprehensive software engineering expertise to help bring your ideas to life 
             and scale your business with cutting-edge technology.
           </p>
         </motion.div>
